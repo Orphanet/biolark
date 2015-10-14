@@ -1,0 +1,9 @@
+<FICHIER_SOURCE> 
+/env/orphanet/pub/appli/exor/requetes/admin/orphadataprod/EN/req_classification_156.xml
+<FICHIER_DEST> 
+biolark/classification_156.xml
+<APPLI> 
+/env/orphanet/pub/appli/jdbor/bin/jdborclient 
+<CRON>
+d
+<END>

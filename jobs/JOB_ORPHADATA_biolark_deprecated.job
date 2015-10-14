@@ -1,0 +1,9 @@
+<FICHIER_SOURCE> 
+/env/orphanet/pub/appli/exor/requetes/admin/orphadataprod/EN/req_deprecated_movedto.xml
+<FICHIER_DEST> 
+biolark/deprecated_movedto.xml
+<APPLI> 
+/env/orphanet/pub/appli/jdbor/bin/jdborclient 
+<CRON>
+d
+<END>

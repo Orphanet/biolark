@@ -1,0 +1,9 @@
+<FICHIER_SOURCE> 
+/env/orphanet/pub/appli/exor/requetes/admin/orphadataprod/EN/req_obsolete_diseases.xml
+<FICHIER_DEST> 
+biolark/obsolete_diseases.xml
+<APPLI> 
+/env/orphanet/pub/appli/jdbor/bin/jdborclient 
+<CRON>
+d
+<END>
