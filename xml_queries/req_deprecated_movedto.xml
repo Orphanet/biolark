@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JDBORGenerate>
+<GeneratorFilter>
+<PivotObjectFilters>
+<DisorderPathFilter>
+<PathExprFilter path="disorder.disorderflag.label" op="=" value="Deprecated entity"/>
+</DisorderPathFilter>
+</PivotObjectFilters>
+</GeneratorFilter>
+<GeneratorParams>
+<Limit filesize="50MB" tagcount="1000000" time="600"/>
+<PivotObject type="disorder"/>
+<Languages>
+<Language iso="en"/>
+</Languages>
+<DisplayItems>
+<DisplayQItem name="disorder" type="obj"/>
+<DisplayQItem name="disorder.id" type="obj"/>
+<DisplayQItem name="disorder.name" type="obj"/>
+<DisplayQItem name="disorder.orphanumber" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation" type="obj"/>
+<DisplayQItem name="disorder.disorderflag" type="obj"/>
+<DisplayQItem name="disorder.disorderflag.id" type="obj"/>
+<DisplayQItem name="disorder.disorderflag.label" type="obj"/>
+<DisplayQItem name="disorder.disorderflag.value" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation.disorder1" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation.disorderdisorderassociationtype" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation.disorderdisorderassociationtype.id" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation.disorderdisorderassociationtype.name" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation.disorder1.id" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation.disorder1.name" type="obj"/>
+<DisplayQItem name="disorder.disorderdisorderassociation.disorder1.orphanumber" type="obj"/>
+</DisplayItems>
+<Format type="xml"/>
+</GeneratorParams>
+</JDBORGenerate>
